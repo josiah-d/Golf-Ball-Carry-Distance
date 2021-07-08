@@ -23,7 +23,6 @@ Features:
 * max_height          Meters
 * descent_angle       Degrees
 
-
 ## Notes
 
 * Missing data: 1878 files
