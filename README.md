@@ -1,4 +1,4 @@
-# Determining Golf Ball Carry Distance from Launch Monitor Data
+# Predicting Golf Ball Carry Distance from Launch Monitor Data
 
 Josiah Duhaime
 
