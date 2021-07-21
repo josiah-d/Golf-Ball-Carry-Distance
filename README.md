@@ -44,6 +44,7 @@ Josiah Duhaime
     * Wedge
 
 **Note: The club type was not used for analyses due to apparently errant data.**
+
 For example, there was logged wedge data that had a flight path consistent with
 a driver. Due to the quality of the data, a determination was made to trust the
 launch monitor data and to attribute the classification error to human error.
