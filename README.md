@@ -1,4 +1,47 @@
-# Determining-Golf-Ball-Carry-Distance-from-Launch
+# Determining Golf Ball Carry Distance from Launch Monitor Data
+
+Josiah Duhaime
+
+---
+
+## Background
+
+---
+
+## Goals
+
+---
+
+## Data
+
+---
+
+## Data Visualization
+
+---
+
+## Statistics
+
+---
+
+## Model
+
+### Model Performance
+
+---
+
+## Conclusions
+
+---
+
+## Next Steps
+
+* Add UI interaction declaring limiting feature of carry distance
+* Feature creation
+* Access raw data
+* Comparision against other launch monitors
+* Incorporate weather
+
 
 ## TODO
 
