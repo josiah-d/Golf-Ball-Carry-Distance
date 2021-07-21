@@ -14,6 +14,9 @@ Josiah Duhaime
 
 ## Data
 
+The data was obtained from a privately owned ForeSight GCHawk and was requested
+by the owner not to be shared publically.
+
 ### Features
 
 * Ball Speed: Meters per Second
@@ -81,6 +84,9 @@ launch monitor data and to attribute the classification error to human error.
 * Access raw data
 * Comparision against other launch monitors
 * Incorporate weather
+
+
+
 
 
 ## TODO
