@@ -4,7 +4,13 @@ Josiah Duhaime
 
 ---
 
+![launch_demo](img/launch_demo.png)
+
 ## Background
+
+Launch monitors are uses highspeed, high-resolution cameras to capture ball
+launch conditions with a high degree of accuracy. These data is then used to
+predict the direction and distance of the golf ball.
 
 ---
 
@@ -14,8 +20,15 @@ Josiah Duhaime
 
 ## Data
 
-The data was obtained from a privately owned ForeSight GCHawk and was requested
-by the owner not to be shared publically.
+The data was obtained from a privately owned [ForeSight GCHawk](https://www.foresightsports.com/gchawk)
+and was requested by the owner not to be shared publically.
+
+![gchawk](img/gchawk.png)
+
+The data was contained in .json files containing user data and launch monitor
+data from numerous golf swings. There were 10 features and 10,467 observations.
+Unfortunately, there were 1,878 total instances were the system was started but
+there were now golf swings executed. These were excluded from analysis.
 
 ### Features
 
@@ -93,12 +106,6 @@ launch monitor data and to attribute the classification error to human error.
 
 * Calc distance with physics
 * Use ML
-
-## Desciption
-
-Features:
-
-
 
 ## Notes
 
