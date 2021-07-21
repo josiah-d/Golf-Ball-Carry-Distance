@@ -53,6 +53,10 @@ Unfortunately, there were 1,878 total instances were the system was started but
 there were no golf swings executed and 86 strokes executed with a putter. Both
 were excluded from analysis.
 
+**Table 1: Manufactured Sample Data**
+
+![data](img/sample_data.png)
+
 ### Features
 
 ![features](img/features.png)
@@ -146,6 +150,8 @@ behind them include:
     * Ability to combine weak learning models
 
 ### Model Performance
+
+**Table 2: Model Performance**
 
 | **Model**                 | **R2**        | **RMSE**   |
 |---------------------------|---------------|------------|
