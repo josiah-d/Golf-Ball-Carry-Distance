@@ -8,29 +8,40 @@ Josiah Duhaime
 
 ## Background
 
-Launch monitors are uses highspeed, high-resolution cameras to capture ball
+Launch monitors use highspeed, high-resolution cameras to capture ball
 launch conditions with a high degree of accuracy. These data is then used to
-predict the direction and distance of the golf ball.
+predict the direction and distance of the golf ball. This information, coupled
+with proper instruction, can be used to optimize one's golf swing to provide
+creater control of the distance the ball travels and increase the ball's
+distance. Further, the data collected from a launch monitor is frequently used
+to simulate playing golf in indoor and outdoor environments. This is especially
+apparent with the recent rise of [Top Golf](https://topgolf.com/us/).
 
 ---
 
 ## Goals
 
+* Attempt to recreate a proprietary algorithm
+* Increase understanding of ML models
+
 ---
 
 ## Data
 
-The data was obtained from a privately owned [ForeSight GCHawk](https://www.foresightsports.com/gchawk)
-and was requested by the owner not to be shared publically.
+The data was obtained from a privately owned
+[ForeSight GCHawk](https://www.foresightsports.com/gchawk) and was requested
+by the owner not to be shared publically.
 
 ![gchawk](img/gchawk.png)
 
-The data was contained in .json files containing user data and launch monitor
+The data was formatted as .json files containing user data and launch monitor
 data from numerous golf swings. There were 10 features and 10,467 observations.
 Unfortunately, there were 1,878 total instances were the system was started but
 there were now golf swings executed. These were excluded from analysis.
 
 ### Features
+
+![features](img/features.png)
 
 * Ball Speed: Meters per Second
     * The measurement of the golf balls velocity measured just after impact
@@ -67,12 +78,21 @@ launch monitor data and to attribute the classification error to human error.
 
 ### Target
 
+![target](img/target.png)
+
 * Carry Distance: Meters
     * The total distance of flight produced by initial launch condition
 
 ---
 
 ## Data Visualization
+
+As seen in `Figure 1`, there are several features that have an apparent linear
+relationship with the target.
+
+**Figure 1: Comparison of Ball Speed and Max Height Against Carry Distance**
+
+![scatter](img/scatter_matrix/scatter.png)
 
 ---
 
