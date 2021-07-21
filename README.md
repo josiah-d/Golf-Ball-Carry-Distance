@@ -6,6 +6,19 @@ Josiah Duhaime
 
 ![launch_demo](img/launch_demo.png)
 
+## Table of Contents
+
+* [Background](#background)
+* [Goals](#goals)
+* [Data](#data)
+    * [Features](#features)
+    * [Target](#target)
+* [Data Visualization](#data-visualization)
+* [Model](#model)
+    * [Model Performance](#model-performance)
+* [Conclusions](#conclusions)
+* [Next Steps](#next-steps)
+
 ## Background
 
 Launch monitors use highspeed, high-resolution cameras to capture ball
