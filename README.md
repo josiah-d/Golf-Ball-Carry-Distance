@@ -34,5 +34,3 @@ Features:
     * eg 300 m wedge
     * Likely artifact of not switching the club selected
     * otherwise the data is sound
-
-

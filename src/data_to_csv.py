@@ -33,5 +33,6 @@ if __name__ == '__main__':
 
     df = df[df['club_type'] != 'Pt']
 
+    print(cj.fail_counter)
     # convert to .csv
-    df.to_csv('data/master.csv')
+    # df.to_csv('data/master.csv')
