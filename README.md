@@ -153,9 +153,9 @@ behind them include:
 
 Basic kinematic equations were used to estimate carry distance as a baseline.
 
-\begin{equation}
-EQ 1: x_{max} = v^2_0 sin 2 \theta
-\end{equation}
+**Equation 1: Maximizing Horizontal Distance**
+
+![equation](img/kinematics.png)
 
 ### Model Performance
 
