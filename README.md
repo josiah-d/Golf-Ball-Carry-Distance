@@ -148,6 +148,14 @@ behind them include:
     * Regularization gradient boosting & speed/memory efficiency
 * Gradient Boosting
     * Ability to combine weak learning models
+    
+### Baseline
+
+Basic kinematic equations were used to estimate carry distance as a baseline.
+
+\begin{equation}
+EQ 1: x_{max} = v^2_0 sin 2 \theta
+\end{equation}
 
 ### Model Performance
 
@@ -155,6 +163,7 @@ behind them include:
 
 | **Model**                 | **R2**        | **RMSE**   |
 |---------------------------|---------------|------------|
+| Kinematic Baseline        | 0.7984        | 29.3485    |
 | ElasticNet                | 0.8911        | 20.2416    |
 | PLSRegression             | 0.8911        | 20.2422    |
 | RandomForestRegressor     | 0.9817        | 8.5562     |
