@@ -196,7 +196,7 @@ ball.
 
 ## Conclusions
 
-Golf ball carry distance can be reasonable predicted off the tee, e.g. ~6 m,
+Golf ball carry distance can be reasonably predicted off the tee, e.g. ~6 m,
 from initial conditions. The XGBoost Regressor was most effective and paints an
 understandable picture that ball speed is most predictive of carry distance.
 
